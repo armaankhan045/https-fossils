@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>featured products - Fossils </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="productsDetails.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font awesome.min.css">
+</head>
+
+<body>
+    <div class="container" color: color: rgb(7, 43, 134);>
+        <div class="navbar">
+            <div>
+                <img class="logoo" src="images/download.png" width="250px">
+            </div>
+            <nav>
+                <ul ul id="menuitems">
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">PRODUCTS</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    <li><a href="">ACCOUNT</a></li>
+                </ul>
+            </nav>
+            <img src="images/24-241097_bag-cart-icon-font-awesome.png" width="30px" height="30px">
+            <img src="images/menu icon" class="menu-icon" onclick="menutoggle()" width="30px" height="30px">
+        </div>
+    </div>
+    <!-------cart items details-->
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>product</th>
+                <th>quantity</th>
+                <th>subtotal</th>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/ES5092_1.jpeg2" >
+                    </div>
+                    <div>
+                        <p>Jacqueline Solar-Powered Pink Eco Leather Watch</p>
+                        <small>₹ 10,995.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>₹ 10,995.00</td>
+            </tr>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/MBG9342222_4.jpeg" >
+                    </div>
+                    <div>
+                        <p>Haskell Double Zip Workbag</p>
+                        <small>₹ 19,295.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>₹ 19,295.0</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/JF03697791_main.jpeg" >
+                    </div>
+                    <div>
+                        <p>Pink Blooms Vintage Rose Stainless Steel Hoop Earrings</p>
+                        <small>₹ 4,295.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>₹ 4,295.00</td>
+            </tr>
+        </table><div class="total-price">
+            <table>
+                <tr>
+                    <td>tax</td>
+                    <td> 35.00</td>
+                </tr>
+                <tr>
+                    <td>sub-total</td>
+                    <td> 230.00</td>
+                </tr>
+            </table>
+        </div>
+
+
+
+    </div>
+
+
+    <!---------footer----->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p> download app for android and ios
+                        mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/app-store.png">
+                        <img src="images/play-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/rope-logo (1)2.png">
+                    <p> Watches that keep 'you' alive for them who want to conquer everthing on time</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Usefull links</h3>
+                    <ul>
+                        <li> Coupons</li>
+                        <li> Blog post</li>
+                        <li> Return Policy</li>
+                        <li> Join affiliates</li>
+
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>FOLLOW US</h3>
+                    <ul>
+                        <li> Facebook</li>
+                        <li> Twitter</li>
+                        <li> Instagram</li>
+                        <li>Youtube </li>
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">
+                copyright 2022 - by web designs and arts
+            </p>
+        </div>
+    </div>
+    <!-----js toggle menu------>
+
+    <script>
+        var menuitems = document.getElementById("menuitems");
+
+        menuitems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (menuitems.style.maxHeight == "0px") {
+                menuitems.style.maxHeight = "200px";
+
+            } else {
+                menuitems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+
+</body>
+
+
+</html>
